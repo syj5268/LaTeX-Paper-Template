@@ -1,0 +1,37 @@
+\documentclass[letterpaper, 11pt]{article}
+
+\usepackage{amsmath}
+
+\title{This is the title of this document.}
+\author{Yoonju Sim}
+\date{August 24th, 2023}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Here is an abstract
+\end{abstract}
+
+
+\section{Introduction} \label{sec:intro}
+
+Hello, World. Blah blah blah. You can cross-reference Section \ref{sec:intro} or Section \ref{sec:analysis}. 
+
+You can write an equation:
+\begin{equation}
+\sum_{i=1}^n x_{ij} = 1 \quad \forall j \in J \label{sum_x}
+\end{equation}
+and you can also cross-reference equation \eqref{sum_x}.
+
+
+\section{Analysis} \label{sec:analysis}
+
+...
+
+\section{Conclusion} \label{sec:conclusion}
+
+...
+
+\end{document}
